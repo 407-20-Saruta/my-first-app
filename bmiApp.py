@@ -3,7 +3,7 @@ import streamlit as st
 st.markdown("# :red[🏋️เเอปพลิเคชันคำนวนค่าดัชนีมวลกาย BMI]")
 st.write("กรอกข้อมูลน้ำหนักเเละส่วนสูงของคุณ เพื่อเช็คสุขภาพเบื้องต้น")
 
-weight = st.number_inoput("กรอกน้ำหนักของคุณ (กิโลกรัม):")
+weight = st.number_input("กรอกน้ำหนักของคุณ (กิโลกรัม):")
 height_cm = st.number_input("กรอกส่วนสูงของคุณ (เซนติเมตร):")
 
 if st.button("คำนวนค่า BMI  "):
